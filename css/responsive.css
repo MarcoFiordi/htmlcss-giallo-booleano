@@ -12,7 +12,27 @@
     .recipe-name{
         font-size: 40px;
     }
-    
+    .quick-notes ul{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .quick-notes li{
+        width: 33%;
+    }
+    .social-networks .btn{
+        width: 120px;
+    }
+    .ads{
+        display: block;
+    }
+    .presentation img{
+        float: left;
+        margin-right: 20px;
+    }    
+}
+
+@media  and (min-width:992px) {
     
     
 }
