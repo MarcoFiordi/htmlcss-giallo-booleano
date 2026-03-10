@@ -21,7 +21,7 @@
         width: 33%;
     }
     .social-networks .btn{
-        width: 120px;
+        flex-grow: 1;
     }
     .ads{
         display: block;
@@ -51,8 +51,19 @@
         flex-grow: 1;
         flex-shrink: 0;
     }
+    .social-networks .label{
+        display: inline;
+    }
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    address {
+        text-align: left;
+    }
 
-    
+
 
 
 }
